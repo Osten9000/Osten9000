@@ -55,7 +55,7 @@ Losses: {queue.get('losses', 'N/A')}
             readme_content += f"Win Rate: {win_rate:.1f}%\n"
 else:
     readme_content += "\nNo ranked data found - player is unranked\n"
-"""
+
 readme_content += "\n## LAST 5 MATCHES\n\n"
 
 for i, match_id in enumerate(matches, 1):
@@ -92,7 +92,7 @@ readme_content += """
 ---
 *Stats automatically updated every 6 hours via GitHub Actions*
 """
-"""
+
 # Write to README.md
 with open('README.md', 'w', encoding='utf-8') as f:
     f.write(readme_content)
