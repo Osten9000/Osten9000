@@ -35,13 +35,12 @@ readme_content = f"""# osten9000
 
 ---
 
-## RANKED INFO
+## LEAGUE RANKED INFO
 """
 
 if ranked:
     for queue in ranked:
-        readme_content += f"""
-**{queue.get('queueType', 'N/A')}**  
+        readme_content += f""" 
 Tier: {queue.get('tier', 'N/A')} {queue.get('rank', 'N/A')}  
 League Points: {queue.get('leaguePoints', 'N/A')} LP  
 Wins: {queue.get('wins', 'N/A')}  
