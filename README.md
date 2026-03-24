@@ -1,16 +1,47 @@
-## Hi there 👋
+# 👋 Hi, I'm <YOUR_NAME>
 
-<!--
-**Osten9000/Osten9000** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎮 Competitive gamer | 💻 Developer | 📊 Data enthusiast  
+Currently grinding both code and ranked ladder.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔥 League of Legends Stats
+
+<!-- OPGG MCP dynamic stats -->
+![Summoner Stats](https://opgg-mcp.vercel.app/api/summoner?name=<osten#9001>&region=<EUW>)
+
+---
+
+## 🧠 About Me
+
+- 🎓 Studying: <Your field, e.g. Mathematics / Statistics>
+- 💡 Interests: Data analysis, game analytics, backend systems
+- ⚙️ Tech: Python, R, SQL, Git, <whatever you actually use>
+- 📍 Location: <City, Country>
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=<YOUR_GITHUB_USERNAME>&show_icons=true&theme=tokyonight)
+
+---
+
+## 🚀 Projects
+
+- 🔹 <Project Name> – Short description
+- 🔹 <Project Name> – Short description
+- 🔹 <Project Name> – Short description
+
+---
+
+## 📫 Contact
+
+- LinkedIn: <your link>
+- Email: <your email>
+
+---
+
+## ⚡ Fun Fact
+
+I optimize builds in-game and algorithms in real life. One of them actually works consistently.
