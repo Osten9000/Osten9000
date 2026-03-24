@@ -3,15 +3,15 @@
 ## LEAGUE OF LEGENDS STATS
 
 **Summoner:** osten#9001  
-**Summoner Level:** 246  
-**Last Updated:** 2026-03-24 15:17:21 UTC
+**Summoner Level:** 247  
+**Last Updated:** 2026-03-24 19:07:06 UTC
 
 ---
 
 ## RANKED SOLO/DUO
  
-Tier: PLATINUM I  
-League Points: 99 LP  
-Wins: 70  
+Tier: EMERALD IV  
+League Points: 18 LP  
+Wins: 71  
 Losses: 57  
-Win Rate: 55.1%
+Win Rate: 55.5%
