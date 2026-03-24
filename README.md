@@ -8,7 +8,7 @@ Currently grinding both code and ranked ladder.
 ## 🔥 League of Legends Stats
 
 <!-- OPGG MCP dynamic stats -->
-![Summoner Stats](https://opgg-mcp.vercel.app/api/summoner?name=<osten#9001>&region=<EUW>)
+![Summoner Stats](https://opgg-mcp.vercel.app/api/summoner?name=<osten#9001>&region=<#EUW>)
 
 ---
 
