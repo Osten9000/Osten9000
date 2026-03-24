@@ -1,9 +1,7 @@
 # osten9000
-
-### 🎮 League of Legends Stats
-
+###
 **Summoner:** osten#9001  
-**Last Updated:** 2026-03-24 14:53:43 UTC
+**Last Updated:** 2026-03-24 14:57:35 UTC
 
 ---
 
