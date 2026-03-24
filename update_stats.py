@@ -24,15 +24,13 @@ ranked_url = f"https://euw1.api.riotgames.com/lol/league/v4/entries/by-puuid/{ac
 ranked_response = requests.get(ranked_url, headers=headers)
 ranked = ranked_response.json()
 
-# Get match IDs (last 5 matches)
-matches_url = f"https://europe.api.riotgames.com/lol/match/v5/matches/by-puuid/{account['puuid']}/ids?start=0&count=5"
-matches_response = requests.get(matches_url, headers=headers)
-matches = matches_response.json()
-
 # Generate README content
 readme_content = f"""# osten9000
-###
+
+### 🎮 League of Legends Stats
+
 **Summoner:** {account['gameName']}#{account['tagLine']}  
+**Summoner Level:** {summoner.get('summonerLevel', 'N/A')}  
 **Last Updated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}
 
 ---
@@ -55,43 +53,8 @@ Losses: {queue.get('losses', 'N/A')}
             readme_content += f"Win Rate: {win_rate:.1f}%\n"
 else:
     readme_content += "\nNo ranked data found - player is unranked\n"
-"""
-readme_content += "\n## LAST 5 MATCHES\n\n"
 
-for i, match_id in enumerate(matches, 1):
-    match_detail_url = f"https://europe.api.riotgames.com/lol/match/v5/matches/{match_id}"
-    match_detail_response = requests.get(match_detail_url, headers=headers)
-    match_detail = match_detail_response.json()
-    
-    for participant in match_detail['info']['participants']:
-        if participant['puuid'] == account['puuid']:
-            kills = participant['kills']
-            deaths = participant['deaths']
-            assists = participant['assists']
-            if deaths > 0:
-                kda = (kills + assists) / deaths
-                kda_str = f"{kda:.2f}:1"
-            else:
-                kda_str = "Perfect"
-            
-            result = "WIN" if participant['win'] else "LOSS"
-            lane = participant.get('teamPosition', participant.get('lane', 'N/A'))
-            
-            readme_content += f"""
-### Match {i}: {result} - {participant['championName']}
-- **KDA:** {kills}/{deaths}/{assists} ({kda_str})
-- **Damage:** {participant['totalDamageDealtToChampions']:,}
-- **Lane:** {lane}
-- **Gold:** {participant['goldEarned']:,}
-- **Duration:** {match_detail['info']['gameDuration'] // 60}m {match_detail['info']['gameDuration'] % 60}s
-- **Queue:** {match_detail['info']['gameMode']}
-"""
-            break
-
-readme_content += 
-"""
-
-"""
+readme_content += """
 ---
 *Stats automatically updated every 6 hours via GitHub Actions*
 """
