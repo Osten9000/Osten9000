@@ -1,10 +1,10 @@
 # osten9000
 
-### 🎮 League of Legends Stats
+### 
 
 **Summoner:** osten#9001  
 **Summoner Level:** 246  
-**Last Updated:** 2026-03-24 15:07:41 UTC
+**Last Updated:** 2026-03-24 15:10:06 UTC
 
 ---
 
@@ -16,6 +16,3 @@ League Points: 99 LP
 Wins: 70  
 Losses: 57  
 Win Rate: 55.1%
-
----
-*Stats automatically updated every 6 hours via GitHub Actions*
