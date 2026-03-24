@@ -4,13 +4,12 @@
 
 **Summoner:** osten#9001  
 **Summoner Level:** 246  
-**Last Updated:** 2026-03-24 15:10:06 UTC
+**Last Updated:** 2026-03-24 15:13:26 UTC
 
 ---
 
-## RANKED INFO
-
-**RANKED_SOLO_5x5**  
+## LEAGUE RANKED INFO
+ 
 Tier: PLATINUM I  
 League Points: 99 LP  
 Wins: 70  
