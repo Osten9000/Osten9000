@@ -27,7 +27,7 @@ ranked = ranked_response.json()
 # Generate README content
 readme_content = f"""# osten9000
 
-### 🎮 League of Legends Stats
+### 
 
 **Summoner:** {account['gameName']}#{account['tagLine']}  
 **Summoner Level:** {summoner.get('summonerLevel', 'N/A')}  
@@ -53,11 +53,6 @@ Losses: {queue.get('losses', 'N/A')}
             readme_content += f"Win Rate: {win_rate:.1f}%\n"
 else:
     readme_content += "\nNo ranked data found - player is unranked\n"
-
-readme_content += """
----
-*Stats automatically updated every 6 hours via GitHub Actions*
-"""
 
 # Write to README.md
 with open('README.md', 'w', encoding='utf-8') as f:
