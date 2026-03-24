@@ -27,7 +27,7 @@ ranked = ranked_response.json()
 # Generate README content
 readme_content = f"""# osten9000
 
-### 
+## LEAGUE OF LEGENDS STATS
 
 **Summoner:** {account['gameName']}#{account['tagLine']}  
 **Summoner Level:** {summoner.get('summonerLevel', 'N/A')}  
@@ -35,7 +35,7 @@ readme_content = f"""# osten9000
 
 ---
 
-## LEAGUE RANKED INFO
+## RANKED SOLO/DUO
 """
 
 if ranked:
