@@ -4,14 +4,14 @@
 
 **Summoner:** osten#9001  
 **Summoner Level:** 248  
-**Last Updated:** 2026-03-29 13:02:01 UTC
+**Last Updated:** 2026-03-29 18:48:39 UTC
 
 ---
 
 ## RANKED SOLO/DUO
  
 Tier: EMERALD IV  
-League Points: 7 LP  
+League Points: 0 LP  
 Wins: 80  
-Losses: 66  
-Win Rate: 54.8%
+Losses: 67  
+Win Rate: 54.4%
