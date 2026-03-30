@@ -3,7 +3,6 @@ import requests
 import json
 import os
 from datetime import datetime
-from collections import Counter
 
 api_key = os.environ.get('RIOT_API_KEY')
 watcher = RiotWatcher(api_key)
@@ -39,39 +38,14 @@ champion_map = {}
 for champ_key, champ_data in champions_data['data'].items():
     champion_map[int(champ_data['key'])] = champ_data['name']
 
-# Get match IDs (last 5 matches for display, but get 20 for role distribution)
-matches_url = f"https://europe.api.riotgames.com/lol/match/v5/matches/by-puuid/{account['puuid']}/ids?start=0&count=20"
+# Get match IDs (last 5 matches)
+matches_url = f"https://europe.api.riotgames.com/lol/match/v5/matches/by-puuid/{account['puuid']}/ids?start=0&count=5"
 matches_response = requests.get(matches_url, headers=headers)
 matches = matches_response.json()
 
-# Get role distribution (last 20 games)
-role_counter = Counter()
-total_games = 0
-
-for match_id in matches:
-    match_detail_url = f"https://europe.api.riotgames.com/lol/match/v5/matches/{match_id}"
-    match_detail_response = requests.get(match_detail_url, headers=headers)
-    match_detail = match_detail_response.json()
-    
-    for participant in match_detail['info']['participants']:
-        if participant['puuid'] == account['puuid']:
-            role = participant.get('teamPosition', participant.get('lane', 'N/A'))
-            role_mapping = {
-                'TOP': 'Top',
-                'JUNGLE': 'Jungle',
-                'MIDDLE': 'Mid',
-                'BOTTOM': 'ADC',
-                'UTILITY': 'Support',
-                'NONE': 'Unknown'
-            }
-            clean_role = role_mapping.get(role, role)
-            role_counter[clean_role] += 1
-            total_games += 1
-            break
-
 # Get last 5 matches details
 last_5_matches = []
-for match_id in matches[:5]:
+for match_id in matches:
     match_detail_url = f"https://europe.api.riotgames.com/lol/match/v5/matches/{match_id}"
     match_detail_response = requests.get(match_detail_url, headers=headers)
     match_detail = match_detail_response.json()
@@ -160,17 +134,10 @@ while len(top_champions) < 3:
         'image': 'https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Teemo_0.jpg'
     })
 
-# Generate role distribution bar
-role_bars = ""
-for role, count in sorted(role_counter.items(), key=lambda x: x[1], reverse=True)[:3]:  # Top 3 roles
-    percentage = (count / total_games) * 100 if total_games > 0 else 0
-    role_bars += f'<div style="margin: 5px 0;"><span style="color: #fff; font-size: 12px; display: inline-block; width: 70px;">{role}:</span><div style="display: inline-block; width: 150px; height: 20px; background: #2A3A4A; border-radius: 10px; overflow: hidden;"><div style="width: {percentage}%; height: 100%; background: #4CAF50; border-radius: 10px;"></div></div><span style="color: #999; font-size: 12px; margin-left: 10px;">{percentage:.0f}%</span></div>\n'
-
 # Generate README content with HTML/CSS styling
 readme_content = f"""<h1 style="border-bottom: none; margin-bottom: 0px; font-size: 45px; color: #ffffff">
   osten<span style="font-weight: normal; color: #999;"> #9001</span>
 </h1>
-
 <div style="display: flex; justify-content: flex-start; align-items: flex-start; gap: 10px;">
   <div align="left">
     <div style="
@@ -200,7 +167,6 @@ readme_content = f"""<h1 style="border-bottom: none; margin-bottom: 0px; font-si
       </div>
     </div>
   </div>
-
   <div align="right" style="flex: 1;">
     <div style="
       text-align: left;
@@ -236,14 +202,6 @@ readme_content = f"""<h1 style="border-bottom: none; margin-bottom: 0px; font-si
             <div style="color: #999; font-size: 12px; margin-top: 0px;">{top_champions[2]['points']:,}</div>
           </div>
         </div>
-        <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
-        
-        <h3 style="color: #ffffff; margin: 0; font-weight: normal; font-size: 14px">Role Distribution (Last {total_games} Games)</h3>
-        <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
-        <div style="margin: 15px 0;">
-            {role_bars}
-        </div>
-        
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
         <h3 style="color: #ffffff; margin: 0; font-weight: normal; font-size: 14px">Recent Matches</h3>
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
