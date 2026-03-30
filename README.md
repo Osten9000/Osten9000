@@ -1,7 +1,6 @@
 <h1 style="border-bottom: none; margin-bottom: 0px; font-size: 45px; color: #ffffff">
   osten<span style="font-weight: normal; color: #999;"> #9001</span>
 </h1>
-
 <div style="display: flex; justify-content: flex-start; align-items: flex-start; gap: 10px;">
   <div align="left">
     <div style="
@@ -31,7 +30,6 @@
       </div>
     </div>
   </div>
-
   <div align="right" style="flex: 1;">
     <div style="
       text-align: left;
@@ -67,16 +65,6 @@
             <div style="color: #999; font-size: 12px; margin-top: 0px;">176,707</div>
           </div>
         </div>
-        <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
-        
-        <h3 style="color: #ffffff; margin: 0; font-weight: normal; font-size: 14px">Role Distribution (Last 20 Games)</h3>
-        <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
-        <div style="margin: 15px 0;">
-            <div style="margin: 5px 0;"><span style="color: #fff; font-size: 12px; display: inline-block; width: 70px;">Jungle:</span><div style="display: inline-block; width: 150px; height: 20px; background: #2A3A4A; border-radius: 10px; overflow: hidden;"><div style="width: 95.0%; height: 100%; background: #4CAF50; border-radius: 10px;"></div></div><span style="color: #999; font-size: 12px; margin-left: 10px;">95%</span></div>
-<div style="margin: 5px 0;"><span style="color: #fff; font-size: 12px; display: inline-block; width: 70px;">ADC:</span><div style="display: inline-block; width: 150px; height: 20px; background: #2A3A4A; border-radius: 10px; overflow: hidden;"><div style="width: 5.0%; height: 100%; background: #4CAF50; border-radius: 10px;"></div></div><span style="color: #999; font-size: 12px; margin-left: 10px;">5%</span></div>
-
-        </div>
-        
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
         <h3 style="color: #ffffff; margin: 0; font-weight: normal; font-size: 14px">Recent Matches</h3>
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
@@ -115,7 +103,7 @@
         </div>
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
         <div style="text-align: center; color: #999; font-size: 11px; margin-top: 10px;">
-            Last updated: 2026-03-30 13:10:24 UTC
+            Last updated: 2026-03-30 13:14:31 UTC
         </div>
     </div>
   </div>
