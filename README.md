@@ -22,11 +22,11 @@
       </div>
       <div style="margin-top: 0px; display: flex; justify-content: space-between; align-items: baseline;">
         <h3 style="color: #ffffff; margin: 0; font-size: 17px;">EMERALD IV</h3>
-        <span style="color: #999; font-size: 14px;">85W 71L</span>
+        <span style="color: #999; font-size: 14px;">87W 72L</span>
       </div>
       <div style="margin-top: -21px; display: flex; justify-content: space-between; align-items: baseline;">
-        <h3 style="color: #999; font-size: 14px;">60 LP</h3>
-        <span style="color: #999; font-size: 14px;">Win rate 54%</span>
+        <h3 style="color: #999; font-size: 14px;">69 LP</h3>
+        <span style="color: #999; font-size: 14px;">Win rate 55%</span>
       </div>
     </div>
   </div>
@@ -50,7 +50,7 @@
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
                  style="width: 80px; height: 80px; border-radius: 8px; object-fit: cover; border: 1px solid #56677B;">
             <div style="color: #fff; font-size: 12px; margin-top: 0px;">Talon</div>
-            <div style="color: #999; font-size: 12px; margin-top: 0px;">737,533</div>
+            <div style="color: #999; font-size: 12px; margin-top: 0px;">741,384</div>
           </div>
           <div style="text-align: center;">
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/sylas_0.jpg" 
@@ -73,6 +73,24 @@
     <div style="text-align: center;">
         <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
              style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">11/1/8</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">19.00 KDA</div>
+    </div>
+    <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">19/4/11</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">7.50 KDA</div>
+    </div>
+    <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #F5274D;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">6/7/3</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">1.29 KDA</div>
+    </div>
+    <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">22/8/4</div>
         <div style="color: #999; font-size: 10px; margin-top: 0px;">3.25 KDA</div>
     </div>
@@ -82,28 +100,10 @@
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">10/5/9</div>
         <div style="color: #999; font-size: 10px; margin-top: 0px;">3.80 KDA</div>
     </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #F5274D;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">1/2/1</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">1.00 KDA</div>
-    </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">23/5/7</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">6.00 KDA</div>
-    </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">17/0/6</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">Perfect KDA</div>
-    </div>
         </div>
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
         <div style="text-align: center; color: #999; font-size: 11px; margin-top: 10px;">
-            Last updated: 2026-04-02 07:17:25 UTC
+            Last updated: 2026-04-02 13:20:29 UTC
         </div>
     </div>
   </div>
