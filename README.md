@@ -17,15 +17,15 @@
       <h3 style="color: #ffffff; margin: 0; font-weight: normal; font-size: 14px">Ranked Solo/Duo</h3>
       <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
       <div style="margin: -85px 0 -85px 0;">
-        <img src="https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-static-assets/global/default/images/ranked-emblem/emblem-platinum.png" 
+        <img src="https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-static-assets/global/default/images/ranked-emblem/emblem-emerald.png" 
              style="width: 200px; height: 300px; object-fit: cover; object-position: 50% 50%; display: block; margin: 0 auto;">
       </div>
       <div style="margin-top: 0px; display: flex; justify-content: space-between; align-items: baseline;">
-        <h3 style="color: #ffffff; margin: 0; font-size: 17px;">PLATINUM I</h3>
-        <span style="color: #999; font-size: 14px;">178W 167L</span>
+        <h3 style="color: #ffffff; margin: 0; font-size: 17px;">EMERALD IV</h3>
+        <span style="color: #999; font-size: 14px;">181W 167L</span>
       </div>
       <div style="margin-top: -21px; display: flex; justify-content: space-between; align-items: baseline;">
-        <h3 style="color: #999; font-size: 14px;">50 LP</h3>
+        <h3 style="color: #999; font-size: 14px;">7 LP</h3>
         <span style="color: #999; font-size: 14px;">Win rate 52%</span>
       </div>
     </div>
@@ -50,13 +50,13 @@
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
                  style="width: 80px; height: 80px; border-radius: 8px; object-fit: cover; border: 1px solid #56677B;">
             <div style="color: #fff; font-size: 12px; margin-top: 0px;">Talon</div>
-            <div style="color: #999; font-size: 12px; margin-top: 0px;">983,659</div>
+            <div style="color: #999; font-size: 12px; margin-top: 0px;">986,951</div>
           </div>
           <div style="text-align: center;">
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/sylas_0.jpg" 
                  style="width: 80px; height: 80px; border-radius: 8px; object-fit: cover; border: 1px solid #56677B;">
             <div style="color: #fff; font-size: 12px; margin-top: 0px;">Sylas</div>
-            <div style="color: #999; font-size: 12px; margin-top: 0px;">320,198</div>
+            <div style="color: #999; font-size: 12px; margin-top: 0px;">321,869</div>
           </div>
           <div style="text-align: center;">
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/bard_0.jpg" 
@@ -71,6 +71,24 @@
         <div style="display: flex; justify-content: space-around; gap: 15px; margin: 15px 0;">
 
     <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">20/0/5</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">Perfect KDA</div>
+    </div>
+    <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/sylas_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">7/11/16</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">2.09 KDA</div>
+    </div>
+    <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">13/2/10</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">11.50 KDA</div>
+    </div>
+    <div style="text-align: center;">
         <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/bard_0.jpg" 
              style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">2/6/16</div>
@@ -82,28 +100,10 @@
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">1/8/14</div>
         <div style="color: #999; font-size: 10px; margin-top: 0px;">1.88 KDA</div>
     </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">10/2/15</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">12.50 KDA</div>
-    </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #F5274D;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">2/5/2</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">0.80 KDA</div>
-    </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #F5274D;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">2/1/1</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">3.00 KDA</div>
-    </div>
         </div>
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
         <div style="text-align: center; color: #999; font-size: 11px; margin-top: 10px;">
-            Last updated: 2026-06-11 04:11:33 UTC
+            Last updated: 2026-06-11 10:40:12 UTC
         </div>
     </div>
   </div>
