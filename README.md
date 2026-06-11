@@ -71,6 +71,12 @@
         <div style="display: flex; justify-content: space-around; gap: 15px; margin: 15px 0;">
 
     <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/jhin_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #F5274D;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">7/12/15</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">1.83 KDA</div>
+    </div>
+    <div style="text-align: center;">
         <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/leesin_0.jpg" 
              style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">8/2/8</div>
@@ -94,16 +100,10 @@
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">20/0/5</div>
         <div style="color: #999; font-size: 10px; margin-top: 0px;">Perfect KDA</div>
     </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/sylas_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">7/11/16</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">2.09 KDA</div>
-    </div>
         </div>
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
         <div style="text-align: center; color: #999; font-size: 11px; margin-top: 10px;">
-            Last updated: 2026-06-11 16:06:37 UTC
+            Last updated: 2026-06-11 20:25:03 UTC
         </div>
     </div>
   </div>
