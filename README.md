@@ -22,11 +22,11 @@
       </div>
       <div style="margin-top: 0px; display: flex; justify-content: space-between; align-items: baseline;">
         <h3 style="color: #ffffff; margin: 0; font-size: 17px;">EMERALD IV</h3>
-        <span style="color: #999; font-size: 14px;">216W 203L</span>
+        <span style="color: #999; font-size: 14px;">216W 205L</span>
       </div>
       <div style="margin-top: -21px; display: flex; justify-content: space-between; align-items: baseline;">
-        <h3 style="color: #999; font-size: 14px;">19 LP</h3>
-        <span style="color: #999; font-size: 14px;">Win rate 52%</span>
+        <h3 style="color: #999; font-size: 14px;">0 LP</h3>
+        <span style="color: #999; font-size: 14px;">Win rate 51%</span>
       </div>
     </div>
   </div>
@@ -71,6 +71,24 @@
         <div style="display: flex; justify-content: space-around; gap: 15px; margin: 15px 0;">
 
     <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/qiyana_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #F5274D;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">4/4/5</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">2.25 KDA</div>
+    </div>
+    <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/qiyana_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #F5274D;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">3/8/8</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">1.38 KDA</div>
+    </div>
+    <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/qiyana_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #F5274D;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">3/8/5</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">1.00 KDA</div>
+    </div>
+    <div style="text-align: center;">
         <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/bard_0.jpg" 
              style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">3/3/7</div>
@@ -82,28 +100,10 @@
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">10/6/7</div>
         <div style="color: #999; font-size: 10px; margin-top: 0px;">2.83 KDA</div>
     </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/bard_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">4/4/21</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">6.25 KDA</div>
-    </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/qiyana_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #F5274D;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">7/1/6</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">13.00 KDA</div>
-    </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/qiyana_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">6/5/11</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">3.40 KDA</div>
-    </div>
         </div>
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
         <div style="text-align: center; color: #999; font-size: 11px; margin-top: 10px;">
-            Last updated: 2026-07-03 09:21:21 UTC
+            Last updated: 2026-07-03 14:10:22 UTC
         </div>
     </div>
   </div>
