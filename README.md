@@ -22,10 +22,10 @@
       </div>
       <div style="margin-top: 0px; display: flex; justify-content: space-between; align-items: baseline;">
         <h3 style="color: #ffffff; margin: 0; font-size: 17px;">EMERALD IV</h3>
-        <span style="color: #999; font-size: 14px;">244W 230L</span>
+        <span style="color: #999; font-size: 14px;">244W 231L</span>
       </div>
       <div style="margin-top: -21px; display: flex; justify-content: space-between; align-items: baseline;">
-        <h3 style="color: #999; font-size: 14px;">32 LP</h3>
+        <h3 style="color: #999; font-size: 14px;">11 LP</h3>
         <span style="color: #999; font-size: 14px;">Win rate 51%</span>
       </div>
     </div>
@@ -71,6 +71,12 @@
         <div style="display: flex; justify-content: space-around; gap: 15px; margin: 15px 0;">
 
     <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/blitzcrank_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #F5274D;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">4/3/2</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">2.00 KDA</div>
+    </div>
+    <div style="text-align: center;">
         <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/galio_0.jpg" 
              style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">3/10/19</div>
@@ -94,16 +100,10 @@
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">5/7/6</div>
         <div style="color: #999; font-size: 10px; margin-top: 0px;">1.57 KDA</div>
     </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">13/3/3</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">5.33 KDA</div>
-    </div>
         </div>
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
         <div style="text-align: center; color: #999; font-size: 11px; margin-top: 10px;">
-            Last updated: 2026-07-18 13:19:30 UTC
+            Last updated: 2026-07-18 19:07:58 UTC
         </div>
     </div>
   </div>
