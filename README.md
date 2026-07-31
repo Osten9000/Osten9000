@@ -56,7 +56,7 @@
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/sylas_0.jpg" 
                  style="width: 80px; height: 80px; border-radius: 8px; object-fit: cover; border: 1px solid #56677B;">
             <div style="color: #fff; font-size: 12px; margin-top: 0px;">Sylas</div>
-            <div style="color: #999; font-size: 12px; margin-top: 0px;">332,339</div>
+            <div style="color: #999; font-size: 12px; margin-top: 0px;">333,911</div>
           </div>
           <div style="text-align: center;">
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/bard_0.jpg" 
@@ -70,6 +70,12 @@
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
         <div style="display: flex; justify-content: space-around; gap: 15px; margin: 15px 0;">
 
+    <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/sylas_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">4/7/12</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">2.29 KDA</div>
+    </div>
     <div style="text-align: center;">
         <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
              style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #F5274D;">
@@ -94,16 +100,10 @@
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">7/7/5</div>
         <div style="color: #999; font-size: 10px; margin-top: 0px;">1.71 KDA</div>
     </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">4/0/6</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">Perfect KDA</div>
-    </div>
         </div>
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
         <div style="text-align: center; color: #999; font-size: 11px; margin-top: 10px;">
-            Last updated: 2026-07-31 14:11:19 UTC
+            Last updated: 2026-07-31 19:36:01 UTC
         </div>
     </div>
   </div>
