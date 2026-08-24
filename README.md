@@ -56,7 +56,7 @@
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/sylas_0.jpg" 
                  style="width: 80px; height: 80px; border-radius: 8px; object-fit: cover; border: 1px solid #56677B;">
             <div style="color: #fff; font-size: 12px; margin-top: 0px;">Sylas</div>
-            <div style="color: #999; font-size: 12px; margin-top: 0px;">334,931</div>
+            <div style="color: #999; font-size: 12px; margin-top: 0px;">335,128</div>
           </div>
           <div style="text-align: center;">
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/bard_0.jpg" 
@@ -103,7 +103,7 @@
         </div>
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
         <div style="text-align: center; color: #999; font-size: 11px; margin-top: 10px;">
-            Last updated: 2026-08-23 18:31:53 UTC
+            Last updated: 2026-08-24 01:23:48 UTC
         </div>
     </div>
   </div>
