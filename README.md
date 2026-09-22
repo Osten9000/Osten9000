@@ -22,10 +22,10 @@
       </div>
       <div style="margin-top: 0px; display: flex; justify-content: space-between; align-items: baseline;">
         <h3 style="color: #ffffff; margin: 0; font-size: 17px;">PLATINUM II</h3>
-        <span style="color: #999; font-size: 14px;">281W 277L</span>
+        <span style="color: #999; font-size: 14px;">282W 277L</span>
       </div>
       <div style="margin-top: -21px; display: flex; justify-content: space-between; align-items: baseline;">
-        <h3 style="color: #999; font-size: 14px;">39 LP</h3>
+        <h3 style="color: #999; font-size: 14px;">58 LP</h3>
         <span style="color: #999; font-size: 14px;">Win rate 50%</span>
       </div>
     </div>
@@ -50,7 +50,7 @@
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
                  style="width: 80px; height: 80px; border-radius: 8px; object-fit: cover; border: 1px solid #56677B;">
             <div style="color: #fff; font-size: 12px; margin-top: 0px;">Talon</div>
-            <div style="color: #999; font-size: 12px; margin-top: 0px;">1,207,829</div>
+            <div style="color: #999; font-size: 12px; margin-top: 0px;">1,209,166</div>
           </div>
           <div style="text-align: center;">
             <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/sylas_0.jpg" 
@@ -73,6 +73,18 @@
     <div style="text-align: center;">
         <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
              style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">15/3/5</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">6.67 KDA</div>
+    </div>
+    <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/rakan_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
+        <div style="color: #fff; font-size: 12px; margin-top: 0px;">1/8/18</div>
+        <div style="color: #999; font-size: 10px; margin-top: 0px;">2.38 KDA</div>
+    </div>
+    <div style="text-align: center;">
+        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
+             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">25/4/9</div>
         <div style="color: #999; font-size: 10px; margin-top: 0px;">8.50 KDA</div>
     </div>
@@ -88,22 +100,10 @@
         <div style="color: #fff; font-size: 12px; margin-top: 0px;">18/8/15</div>
         <div style="color: #999; font-size: 10px; margin-top: 0px;">4.12 KDA</div>
     </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #F5274D;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">14/4/3</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">4.25 KDA</div>
-    </div>
-    <div style="text-align: center;">
-        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/talon_0.jpg" 
-             style="width: 40px; height: 40px; border-radius: 200px; object-fit: cover; border: 3px solid #0099FA;">
-        <div style="color: #fff; font-size: 12px; margin-top: 0px;">11/3/10</div>
-        <div style="color: #999; font-size: 10px; margin-top: 0px;">7.00 KDA</div>
-    </div>
         </div>
         <hr style="border: none; height: 1px; background-color: #56677B; margin: 8px -10px; width: 100%;  width: calc(100% + 20px);">
         <div style="text-align: center; color: #999; font-size: 11px; margin-top: 10px;">
-            Last updated: 2026-09-22 16:31:14 UTC
+            Last updated: 2026-09-22 21:00:15 UTC
         </div>
     </div>
   </div>
